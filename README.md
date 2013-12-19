@@ -14,6 +14,7 @@ Build
 ```PowerShell
     build.ps1
 ```	
+This will create a 'build' folder on the root containing the nupkg files.
 
 Install
 ---------
