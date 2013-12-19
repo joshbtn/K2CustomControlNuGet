@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Web.UI;
+using System.Web.UI.WebControls;
 using SourceCode.Forms.Controls.Web.SDK;
 using SourceCode.Forms.Controls.Web.SDK.Attributes;
 
@@ -13,6 +15,10 @@ namespace my.k2.controls
 	[ClientCss("my.k2.controls.main.css")]
     public class ExampleControl : BaseControl
     {
+		public ExampleControl : base ("input"){
+			Attributes["type"] = "text";
+		}
+		
         protected override void CreateChildControls()
         {
             Label label = new Label();

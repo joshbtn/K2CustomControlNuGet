@@ -180,3 +180,4 @@ $RECYCLE.BIN/
 
 #IGNORE propriatry dll files
 *SourceCode.*.dll
+helper.bat
