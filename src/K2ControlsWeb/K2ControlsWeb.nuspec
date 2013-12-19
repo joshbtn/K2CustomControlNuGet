@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<package >
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>K2ControlsCore</id>
+    <id>K2ControlsWeb</id>
     <version>1.0.0</version>
     <authors>jbennett</authors>
     <owners>jbennett</owners>
@@ -9,25 +9,13 @@
     <description>Package description</description>
     <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
     <copyright>Copyright 2013</copyright>
-    <tags>Tag1 Tag2</tags>
+    <tags>K2</tags>
 	<dependencies>
-      <dependency id="RouteMagic" version="1.1.0" />
-      <dependency id="RouteDebugger" version="1.0.0" />
+      <dependency id="K2ControlsCore" version="1.0.0" />
     </dependencies>
-	<frameworkAssemblies>
-	    <dependency id="System.Web" targetFramework="net35" />
-	    <dependency id="System.Web.Services" targetFramework="net35" />
-	</frameworkAssemblies>
-	<references>
-		<group targetFramework="net35">
-			<reference file="SourceCode.Forms.Client.dll" />
-			<reference file="SourceCode.Forms.Controls.Web.SDK.dll" />
-			<reference file="SourceCode.Forms.Controls.Web.Shared.dll" />
-		</group> 
-	</references>
-	<files>
-		<file src="css\main.css" target="Content" />
-		<file src="js\main.js" target="Content" />
-	</files>
   </metadata>
+  <files>
+    <file src="content\css\main.css" target="Content" />
+    <file src="content\js\main.js" target="Content" />
+  </files>
 </package>
