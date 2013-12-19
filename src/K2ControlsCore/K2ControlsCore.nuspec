@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>K2ControlsCore</id>
+    <version>1.0.0</version>
+    <authors>Josh Bennett</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Package description</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>K2</tags>
+	<dependencies>
+      <dependency id="RouteMagic" version="1.1.0" />
+      <dependency id="RouteDebugger" version="1.0.0" />
+    </dependencies>
+	<frameworkAssemblies>
+	    <dependency id="System.Web" targetFramework="net35" />
+	    <dependency id="System.Web.Services" targetFramework="net35" />
+	</frameworkAssemblies>
+	<references>
+		<group targetFramework="net35">
+			<reference file="SourceCode.Forms.Client.dll" />
+			<reference file="SourceCode.Forms.Controls.Web.SDK.dll" />
+			<reference file="SourceCode.Forms.Controls.Web.Shared.dll" />
+		</group> 
+	</references>
+  </metadata>
+</package>
