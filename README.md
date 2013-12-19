@@ -21,6 +21,6 @@ See [hosting your own nuget feeds](http://docs.nuget.org/docs/creating-packages/
 
 Resources
 ---------
-Creating custom controls - http://help.k2.com/en/k2smartforms1.02devref.aspx
-Creating and Publishing a Package - http://docs.nuget.org/docs/creating-packages/creating-and-publishing-a-package
+Creating custom controls - http://help.k2.com/en/k2smartforms1.02devref.aspx  
+Creating and Publishing a Package - http://docs.nuget.org/docs/creating-packages/creating-and-publishing-a-package  
 hosting your own nuget feeds - http://docs.nuget.org/docs/creating-packages/hosting-your-own-nuget-feeds
