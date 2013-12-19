@@ -14,8 +14,8 @@
       <dependency id="K2ControlsCore" version="1.0.0" />
     </dependencies>
   </metadata>
-  <files>
+  <!--files>
     <file src="content\css\main.css" target="Content" />
     <file src="content\js\main.js" target="Content" />
-  </files>
+  </files-->
 </package>

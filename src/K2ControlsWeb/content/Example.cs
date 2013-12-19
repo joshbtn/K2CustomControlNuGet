@@ -10,6 +10,7 @@ namespace my.k2.controls
 {
 	[ControlTypeDefinition("my.k2.controls.ExampleControl.xml")]
 	[ClientScript("my.k2.controls.main.js")]
+	[ClientCss("my.k2.controls.main.css")]
     public class ExampleControl : BaseControl
     {
         protected override void CreateChildControls()
