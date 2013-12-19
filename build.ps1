@@ -1,6 +1,6 @@
 $scriptPath = split-path -parent $MyInvocation.MyCommand.Definition
 
-if((Test-path -Path \\'$DeviceName'\$folderPath) -eq $FALSE){
+if((Test-path -Path "$scriptPath\build") -eq $FALSE){
 	New-Item -ItemType Directory -Path "$scriptPath\build"
 }
 
